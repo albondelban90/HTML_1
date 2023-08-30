@@ -1,0 +1,149 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <title>
+            Aprendiendo HTML desde 1%
+        </title>
+    </head>
+    <body>
+        <h1>
+            Definición:
+        </h1>
+            <p>
+                Hyper Text Markup Language:
+            </p>
+            <p>
+                Lenguaje de programación de etiquetas, que sirve como una estructura de arbol
+                para el contenido y desing de una pagina o aplicacion web.
+            </p>
+        <h2>
+            Estructura HTML
+        </h2>
+            <p>
+                Sistemas de Etiquetas dentado, que se compone por bloques.
+            </p>
+            <!--aca debo colocar la imagen de ejemplo de la estructura-->
+            <img src="img/Estructura.png" />  <img src="img/Estructura visual.png" />
+            <hr>
+        <h3>
+            La Etiqueta:
+        </h3>
+            <p>
+                Consta de 3 partes:<br>
+            </p>
+            <p>
+                <span style="color:yellowgreen;">1.Apertura:</span>
+                Costa de 2 simbolos de mayor < > y menor y dentro el nombre de la etiqueta
+            </p>
+            <p>
+                <span style="color:blue;" >2 Contenido </span>
+                Entre la Apertura y el Cierre va el cotenido de la etiqueta, 
+                que puede ser: texto,imagen,vinculo..etc.
+            </p>
+
+            <p>
+                <span style="color:red;"> 3.Cierre </span>
+                Es como la Apertura, solo que en el simbolo  lleva<br>
+                un slash diagonal como cierre < / >
+            </p>
+            <!--Aca debo colocar la imagen de las 3 partes de una etiqueta y la imagen del index esta pagina-->
+            <img src="img/etiqueta.png" />
+            <p>
+                A continuacion un screen real del  principio del codigo desde el archivo index.html de esta pagina <br>
+                para tener una idea de como se ven las etiquetas formando bloques en cascada, que van dando 
+                estructura a esta pagina.
+            </p>
+            <img src="img/imagen del html de la pagina de aprendiendo HTML.png" />
+            <hr>
+        <h4>
+            Tipos de Etiquetas y sus propiedades
+        </h4>
+            <p>
+                Existe muchas etiquetas que veremos a continuación con sus propiedades, que sirven para darle 
+                funcionalidades, estructura, diseno a las paginas web.
+            </p>
+            <p>
+                <span style="background-color: gold;""> < DOCTYPE html> </span> <br>
+                Esta etiqueta es la primera de todo codigo html y significa el modo html-5
+                sin no esta mencionada en el código, el buscador entraría en modo Quirks mode,
+                que es el modo de los 90`s (antiguo) de las paginas web.
+            </p>
+            <p>
+                <span style="background-color: gold;"> < head > </span>  <br>
+                Representa la colección del metada que no necesariamente está visible al usuario
+            </p>
+            <p>
+                <span style="background-color: gold;"> < title >  </span> <br>
+                Representa el titulos de la pagina web, es importante resaltar 
+                que los motores de busqueda utilizan el titulo para posicionar paginas web.
+            </p>
+            <p>
+                <span style="background-color: gold;"> < body > </span> <br>
+                "Representa todo el contenido de la web"
+            </p>
+            <p>
+                <span style="background-color: gold;"> < h1-h6 > </span> <br>
+                Heading o cabezeras y se utiliza para indicar cabeceras, subcabeceras o sub-sub-cabeceras.. 
+                de la pagina, y a pesar que van sustancialmente dreciendo su tamano, no se usa para agrandar 
+                o achicar o modificar stylo del texto sino para fragmentar el contenido de la pagina web 
+                y son utilizados por los motores de búsquedas. y la etiqueta < h7 > no existe ya que se entiende
+                que si tu codigo tiene mas de 6 cabezeras, se considera no es viable a la semantica de un contenido. 
+            </p>
+            <p>
+                <span style="background-color: gold;"> < p > </span>  <br>
+                Párrafos: aquí dentro de esta etiqueta es donde podemos colocar los textos
+            </p>
+            <p>
+                <span style="background-color: gold;"> < br > </span> <br>
+                Esta etiqueta sirve para hacer Saltos de Linea en el texto. es decir es la accion cuando precionas
+                Enter en tu documento  de Word. y  mientras mas colocas esta etique mas saltos de linea hara.
+            </p>
+            <p>
+               <span style="background-color: gold;"> < hr > </span> <br> 
+               Secciona la pagina web haciendo una division en la pagina como salto de pagina.
+            </p>
+            <p>
+                <span style="background-color: gold;"> < !-- -- >  </span> <br>
+                Dentro de esta etiqueta se deja un mensaje de comentario, que no se muestra al cliente
+                solo se lee desde el codigo
+            </p>
+            <p>
+                <span style="background-color: gold;"> < span > </span> <br> 
+                Selección silenciosa o  de referencia y se usa para identificar una parte del texto dentro
+                de un parrafo, para asignar  propiedades como estilos <span style="color: blue;">(CCS)</span> 
+                y manipular la palabra es como tomar una palabra que deseas aplicarle alguna modificacion 
+                o resaltar la palabra que estaria dentro de esta etiqueta. <br> <br>
+
+                Esta etiqueta aparte de su funcion mencionada, se combina dentro de ella antes de cerrarla 
+                para crear propiedades como esta a continuacion: 
+                <span style="color: blue;"> style="color: blue;"> </span> eso le indica que la seleccion 
+                del texto dentro de la etiqueta span, se pintaria de color azul.
+            </p>
+            <p>
+                 <span style="background-color: gold;"> < a href=¨http:¨ /> </span> <br>
+                 Esta etiqueta llamada Anchor  < a /> mas la propiedad <span style="color: blue;">¨href¨</span>, 
+                 se usa como hipervinculo  para abrir otra pagina web desde la misma pagina
+                 y si quieres abrir la pagina en otra pestana, debes colocar la siguiente propiedades:
+                 <span style="color:blue;"> target=¨_blank¨ </span> seguido de la propiedad href=¨https://laotrapaginaweb.com¨ <br> <br>
+
+                 <!--Aca puedes insertar un video de youtube de la referencia del contenido de esta pagina web -->
+                 <a target="_blank" href="https://www.youtube.com/watch?v=MJkdaVFHrto&t=1695s"> Ir a video de Youtube </a> <br> <br>
+            </p>
+            <p>
+                <span style="background-color: gold;"> < img src="ruta de la imagen" /> </span> <br>
+                Esta etiqueta < img /> sirve para agregar imagenes, ya sea local o por http, la cual debes colocar 
+                la ruta dentro de las comillas. Dentro de esta etiqueta, tenemos varias propiedades 
+                (CCS)que nos sirve para modificar la imagen, ya sea su posicion, tamano etc. <br> <br>
+
+                <span style="color: blue;"> width=¨400¨/>,</span> esta propiedad quiere decir que los 400 
+                es el tamano en pixeles de la imagen insertada. <br> 
+                <span style="color: blue;"> height=¨400¨/> </span>
+                
+            </p>
+
+
+
+
+
+    </body>
+    </html> 
