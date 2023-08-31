@@ -124,10 +124,12 @@
                  Esta etiqueta llamada Anchor  < a /> mas la propiedad <span style="color: blue;">¨href¨</span>, 
                  se usa como hipervinculo  para abrir otra pagina web desde la misma pagina
                  y si quieres abrir la pagina en otra pestana, debes colocar la siguiente propiedades:
-                 <span style="color:blue;"> target=¨_blank¨ </span> seguido de la propiedad href=¨https://laotrapaginaweb.com¨ <br> <br>
+                 <span style="color:blue;"> target=¨_blank¨ </span> seguido de la propiedad 
+                 <span style="color: blue;"> href=</span>¨https://mipaginaweb.com¨ <br> <br>
 
                  <!--Aca puedes insertar un video de youtube de la referencia del contenido de esta pagina web -->
-                 <a target="_blank" href="https://www.youtube.com/watch?v=MJkdaVFHrto&t=1695s"> Ir a video de Youtube </a> <br> <br>
+                 <img src="img/a.png" /> <br>
+                 <a target="_blank" href="https://www.youtube.com/watch?v=MJkdaVFHrto&t=1695s"> Ir a video de Youtube </a> <br><br>
             </p>
             <p>
                 <span style="background-color: gold;"> < img src="ruta de la imagen" /> </span> <br>
@@ -137,7 +139,44 @@
 
                 <span style="color: blue;"> width=¨400¨/>,</span> esta propiedad quiere decir que los 400 
                 es el tamano en pixeles de la imagen insertada. <br> 
-                <span style="color: blue;"> height=¨400¨/> </span>
+                <span style="color: blue;"> height=¨400¨/> </span> <br>
+                <img src="img/img1.png" /> <br> <br>
+            </p>
+            <p>
+                <span style="background-color: greenyellow;"> Formularios </span>   < form /> <br>
+                Ya hemos visto varias etiquetas que nos permiten mostrar informacion al usuario.
+                Ahora vamos  ver una forma de interactuar con el usuario y mas que todo una forma de
+                <span style="background-color: greenyellow;">Recopilar informacion</span> con una etiqueta
+                que se llama: <span style="color: green;"> < form /> </span> donde adentro tenemos varias propiedades 
+                como <span style="color: green;"> < input /> </span> que es la propiedad para generar una casilla, donde a su vez podemos incorporar
+                otras etiquetas como proiedad para darle referencia a la casilla, y se llama
+                <span style="color: green;"> < label /> </span> que indique que tipo datos 
+                vamos a solicitar en la casilla. ejemplo el dato "Nombre" y una vez declarado el tipo de dato,
+                con la propiedad <span style="color: green;"> < label,</span> dentro vamos  a colocar la propiedad
+               <span style="color: green;"> for=<span style="color: brown;">"Nombre"</span> </span>, 
+               mas la propiedad <span style="color: green;"> id=</span> 
+               <span style="color: brown;"> "y entre comillas colocar el mismo texto que le dimos la propiedad" </span> a 
+               <span style="color: green;"> < for="" </span>
+               para cuando haga clic al "nombre" se coloque el cursor en la casilla. ejemplo <br> <br>
+               
+               <img src="img/form.png" />
+                <form>
+                    <label for="nombre"> Nombre</label>
+                    <input id="nombre" name="nombre"/> 
+                </form> <br> <br>
+                
+                Dentro de la etiqueta <span style="color: green;"> < input </span>  vamos agregar una propiedad 
+                que se llama <span style="color: green;"> name="nombre",</span> que le indicara al servidor 
+                una llave y un valor, donde la llave es name y el valor contenida es nombre, tambien otra propiedad similar
+                a la de <span style="color: green;">  < label </span>, es <span style="color: green;"> placeholder </span>
+                que colocara dentro de la casilla, el valor como sugerencia que hemos asignado.<br> <br>
+
+                <img src="img/placerholder.png"/> <br> <br>
+                <form>
+                    <label for="Nombre"> Nombre</label>
+                    <input id="Nombre" name="nombre"  placeholder="Aqui va el Nombre"/> 
+                </form> <br> <br>
+
             </p>
     </body>
     </html> 
