@@ -1,17 +1,16 @@
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <title>
-            Aprendiendo HTML desde 1%
-        </title>
-    </head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>
+        Aprendiendo HTML desde 1%
+    </title>
+</head>
     <body>
         <h1>
-            Definición:
+            Definición de HTML:
         </h1>
             <p>
-                Hyper Text Markup Language: <br> <br>
-
+                Hyper Text Markup Language:<br>
                 Lenguaje de programación de etiquetas, que sirve como una estructura de arbol
                 para el contenido y desing de una pagina o aplicacion web.
             </p>
@@ -52,7 +51,7 @@
             </p>
             <hr>
         <h4>
-            Tipos de Etiquetas y sus propiedades
+            <span style="font-size: 24px; margin-bottom: 10px;">Tipos de Etiquetas y sus propiedades </span>
         </h4>
             <p>
                 Existe muchas etiquetas que veremos a continuación con sus propiedades, que sirven para darle
@@ -63,17 +62,17 @@
                 sin no esta mencionada en el código, el buscador entraría en modo Quirks mode,
                 que es el modo de los 90`s (antiguo) de las paginas web.<br><br>
 
-                <span style="background-color: gold;"> < head > </span>  <br>
+                <span style="background-color: gold;"> < head > </span><br>
                 Representa la colección del metada que no necesariamente está visible al usuario<br><br>
             
-                <span style="background-color: gold;"> < title >  </span> <br>
+                <span style="background-color: gold;"> < title >  </span><br>
                 Representa el titulos de la pagina web, es importante resaltar 
                 que los motores de busqueda utilizan el titulo para posicionar paginas web.<br><br>
             
-                <span style="background-color: gold;"> < body > </span> <br>
+                <span style="background-color: gold;"> < body > </span><br>
                 "Representa todo el contenido de la web"<br><br>
                 
-                <span style="background-color: gold;"> < h1-h6 > </span> <br>
+                <span style="background-color: gold;"> < h1-h6 > </span><br>
                 Heading o cabezeras y se utiliza para indicar cabeceras, subcabeceras o sub-sub-cabeceras.. 
                 de la pagina, y a pesar que van sustancialmente dreciendo su tamano, no se usa para agrandar 
                 o achicar o modificar stylo del texto sino para fragmentar el contenido de la pagina web 
@@ -83,7 +82,6 @@
                 <span style="background-color: gold;"> < p > </span><br>
                 Párrafos: aquí dentro de esta etiqueta es donde podemos colocar los textos<br><br>
             
-        
                 <span style="background-color: gold;"> < br > </span><br>
                 Esta etiqueta sirve para hacer Saltos de Linea en el texto. es decir es la accion cuando precionas
                 Enter en tu documento  de Word. y  mientras mas colocas esta etique mas saltos de linea hara.<br><br>
@@ -95,93 +93,198 @@
                 Dentro de esta etiqueta se deja un mensaje de comentario, que no se muestra al cliente
                 solo se lee desde el codigo<br><br>
             
-                <span style="background-color: gold;"> < span > </span> <br> 
+                <span style="background-color: gold;"> < span > </span><br> 
                 Selección silenciosa o  de referenciar y se usa para seleccionar una parte del texto dentro
-                de un parrafo, para asignar  propiedades como estilos <span style="color: blue;">(CCS)</span> 
-                y manipularla, Es como tomar una palabra que deseas aplicarle alguna modificacion especifica
-                y/o resaltarla. Esta etiqueta aparte de su funcion mencionada, se combina dentro de ella con 
-                otras etiquetas para crear propiedades que veremos a continuacion: <br><br>
-                <span style="color: blue"> style="color: blue;"> </span> eso le indica que la seleccion 
-                del texto dentro de la etiqueta span, se pintaria de color azul.<br><br>
+                del la etiqueta, para asignar mas propiedades, como estilos (CCS) y manipularla.
+                Muchas etiquetas aparte de su funcion mencionada, se combina dentro de ella con 
+                otras etiquetas de atributos (CCS) para crear propiedades que veremos a continuacion: <br><br>
 
-                <span style="background-color: gold;"> < a > </span> <br>
-                Esta etiqueta llamada Anchor se usa como hipervinculo para abrir otra pagina web 
-                desde la misma pagina y se combina con mas etiquetas de propiedades que veremos a continuacion:<br><br>
-                <span style="color: blue;">¨href="www.lapaginaweb.com"</span>: para agregar el link de la pagina web.<br> 
-                <span style="color: blue;"> target=¨_blank¨ </span>: para abrir la pagina en otra pestana pero en otra pestana.
-                <br><br> 
-
-                <!--Aca insertaré un video de youtube de la referencia del contenido de esta pagina web -->
-                Ej:<img src="img/a.png" /> <br><br>
-                <a target="_blank" href="https://www.youtube.com/watch?v=MJkdaVFHrto&t=1695s"> Ir a video de Youtube </a> <br><br><br>
-        
-            
-                <span style="background-color: gold;"> < img > </span> <br>
+                    <span style="color: blue"> style=</span><span style="color: brown;">"color"</span>: eso le indica que la seleccion 
+                    del texto dentro de la etiqueta span, se pintaria de color a elegir.<br><br><br>
+          
+                <span style="background-color: gold;"> < img /> </span><br>
                 Esta etiqueta sirve para agregar imagenes, ya sea local o por http. Dentro de esta etiqueta, 
-                tenemos varias propiedades (CCS)que nos sirve para modificar la imagen, ya sea su posicion, 
-                tamano etc: <br><br>
+                tenemos varias propiedades o atributos (CCS)que nos sirve para modificar la imagen, ya sea su posicion, tamano etc: <br><br>
 
-                <span style="color: blue;">src="ruta de la imagen"/></span> sirve para colocar la ruta o  
-                direccion de la imagen dentro de las comillas <br>
-                <span style="color: blue;"> width=¨400¨/>,</span>valor al en pixeles del ancho de la imagen<br>
-                <span style="color: blue;"> height=¨400¨/> </span>Valor en Pixele del alto de la imagen<br>
-                <img src="img/img1.png" /> 
-                <br><br><br><br>
+                    <span style="color: blue;">src</span>=<span style="color: brown;">"ruta de la imagen"/></span> sirve para colocar la ruta o direccion de la imagen dentro de las comillas <br>
+                    <span style="color: blue;">width</span>=<span style="color: brown;">"tamano¨/>  </span>valor al en pixeles del ancho de la imagen<br>
+                    <span style="color: blue;"> height</span>=<span style="color: brown;">"tamano¨/> </span>Valor en Pixels del alto de la imagen<br><br>
+                    <img src="img/img1.png" /> 
+                    <br><br><br>
+
+                <span style="background-color: gold;"> < a > </span><br>
+                Esta etiqueta llamada Anchor se usa como hipervinculo para abrir otra pagina web 
+                desde la misma pagina y se combina con mas etiquetas de propiedades o atributos que veremos a continuacion:<br><br>
+
+                    <span style="color: blue;">href</span><span style="color: brown;">="www.lapagina.com" </span>: para agregar el link de la pagina web.<br> 
+                    <span style="color: blue;">target</span>=<span style="color: brown;">¨_blank¨</span>: para abrir la pagina en otra pestana pero en otra pestana.<br><br>
+                    
+                    <!--Aca insertaré colocar un video de youtube de la referencia del contenido de esta pagina web -->
+                    <a target="_blank" href="https://www.youtube.com/watch?v=MJkdaVFHrto&t=1695s"> Ir a video de Youtube </a> <br>
+                    
+                    <img src="img/a.png" /> <br><br><br>  
             
-            
-                <span style="background-color: gold;"> < form /> </span>  Formulario<br>
+                <span style="background-color: gold;"> < form > </span><br>
                 Ya hemos visto varias etiquetas que nos permiten mostrar informacion al usuario.
-                Ahora vamos  ver una forma de interactuar con el usuario y mas que todo una forma de
-                <span style="background-color: greenyellow;">Recopilar informacion</span> con una etiqueta
-                que se llama: < form />, donde adentro tenemos varias propiedades como:
+                Ahora vamos  ver una forma de interactuar con el usuario y mas que todo una forma de <span style="color: green;">Recopilar informacion</span> para luego enviarla a un servidor
+                con una etiqueta donde adentro tenemos varias propiedades que veremos a continuacion:
                 <br><br>
                 
-                <span style="color: blue;"> < input />: </span> Que es la propiedad para crear la casilla<br>
-                <span style="color: blue;"> id="<span style="color: brown;">nombre de la casilla"</span></span>
-                identifica la casilla con el nombre<br>            
-                <span style="color: blue;"> name= <span style="color: brown;">"nombre",</span></span> 
-                Le indicara al servidor una <span style="color: blue;"> llave</span> y un <span style="color: brown;"> valor,</span><br>
-                donde la llave es "Name" y el valor "nombre". o llave "numero" y el valor "7" 
-                <br><br>
+                    <span style="color: blue;"> < input /> </span>: Que es la propiedad para crear la casilla<br>
+                    <span style="color: blue;"> id<span style="color: brown;">="nombre de la casilla"</span></span>: identifica la casilla con el nombre<br>            
+                    <span style="color: blue;"> name<span style="color: brown;">="nombre"</span></span>: le indicara al servidor una 
+                    <span style="color: blue;"> llave</span> y un <span style="color: brown;"> valor,</span> 
+                    <br><br>
                 
-                <span style="color: blue;"> < label /> </span> Es el nombre de la casilla<br>
-                <span style="color: blue;"> for=<span style="color: brown;">"nombre de la casilla"</span></span>
-                enfoca la casilla al hacer clic en el nombre de la casilla
-                <br><br>
+                    <span style="color: blue;"> < label > </span> Es el nombre de la casilla<br>
+                    <span style="color: blue;"> for</span>=<span style="color: brown;">"id de la casilla"</span></span>: enfoca la casilla al hacer clic en el nombre de la casilla <br>                      
+                    <span style="color: blue;"> placeholder</span>=<span style="color: brown;">"Aqui va el nombre"</span></span>: colocara dentro de la casilla un texto clarito como sugerencia<br><br>
+                    
+                    <img src="img/placerholder.png"/>
 
-                Ejemplo
-               <img src="img/form.png" />
-                <form>
-                    <label for="nombre"> Nombre</label>
-                    <input id="nombre" name="nombre"/> 
-                </form> <br> <br>
-                              
-               <span style="color: blue;"> placeholder="<span style="color: brown;">Aqui va el nombre"</span></span>
-                colocara dentro de la casilla un texto clarito como sugerencia
-                <br><br>
+                    <form>
+                        <label for="Nombre"> Nombre</label>
+                        <input id="Nombre" name="nombre"  placeholder="Aqui va el Nombre"/> 
+                    </form><br><br>  
+                <hr>    
+                <span style="font-size: 24px; margin-bottom: 10px;">Tipos de Castillas</span> <br><br> 
+                    
+                    <form action="/ruta del servidor" method="get"></form>   
+                    
+                        <span style="color:blue">type=<span style="color: brown;">"email" /> </span></span> La casilla es de tipo contexto (@correo.com)<br>
+                            <label for="email"> Email </label>
+                            <input type="email" id="email" name="email" placeholder=" introduzca correo"/>
+                            <br><br>
 
-                Ejemplo
-                <img src="img/placerholder.png"/>
-                <form>
-                    <label for="Nombre"> Nombre</label>
-                    <input id="Nombre" name="nombre"  placeholder="Aqui va el Nombre"/> 
-                </form> <br><br>
+                        <span style="color: blue;"> type= <span style="color: brown;">"password" /> </span></span><br>
+                            <label for="password"> Password </label>
+                            <input type="password" id="password" name="password" placeholder="introduzca password" />
+                            <br><br>
+
+                        <span style="color: blue;">type=<span style="color: brown;">"radio" /></span></span><br>
+                            <label>Si</label>
+                            <input type="radio" />
+                        
+                            <label>No</label>  
+                            <input type="radio" />
+                            <br><br>
+
+                        <span style="color: blue;">type= <span style="color: brown;">"checkbock" /> </span></span><br>
+                            <label>seleccionar</label>
+                            <input type="checkbox" />
+                            <br><br>
+
+                        <span style="color: blue;">type= <span style="color: brown;">"file" /> </span></span><br>
+                            <label> Cargar archivo</label>
+                            <input type="file" />
+                            <br><br>
+
+                        <span style="color: blue;"> < textarea >< textarea /> </span></span><br>
+                            <label for="comentario">Comentarios</label><br>
+                            <textarea id="comentario" name="comentario" placeholder="Agregue un comentario"></textarea>
+                            <br><br>
+
+                        <span style="color: blue;"> "type" <span style="color: brown;"> "submit" </span></span><br>
+                             <input type="submit"/>
+                             <br><br> 
+                    </form>
+                <hr>
+                    Ahora una vez creada el tipo de formulario para captar datos del usuario
+                    ya sea tipo de texto,file,check…usaremos una propiedad dentro de la etiqueta < form > para enviar esos datos algún servidor</span><br><br> 
+                        
+                        <span style="color: blue;">action <span style="color: brown;">"/ruta_del_servidor" </span></span><br>
+                        <span style="color: blue;">method <span style="color: brown;">"GET/POST" </span></span><br><br>
+
+                    <span style="font-size: 24px; margin-bottom: 10px;">Tipos de Botones</span> <br><br>
+                        <span style="color: blue;">type=<span style="color: brown;">"button"</span> </span>: boton generico<br>
+                        <span style="color: blue;">type=<span style="color: brown;">"reset"</span> </span>: al darle click se restablece la info de las casillas de formulario<br>
+                        <span style="color: blue;">type=<span style="color: brown;">"submit</span> </span>: se envia la info al servidor a la ruta que hayamos definido en < action > del < form > </ form> <br><br>
+
+                <span style="font-size: 24px; margin: bottom 10px;"> Listas </span><br><br>
+            
+                <span style="background-color: gold;"> < li >  </span><br>
+                 Sirve para mostrar distinto elementos en lista, ya sea ordenada o sin orden en específico dependiendo de las siguiente etiquetas:<br><br>
+                    
+                <span style="background-color: gold;"> < ul >  </span> List items: Lista NO ordenada<br>
+                    <ul>
+                        <li> Elemento 1</li>
+                        <li> Elemento 2</li>
+                        <li> Elemento 3</li>
+                        <li> Elemento 4</li>
+                    </ul>
+                <img src="img/ul.png" /> <br><br>
+                <span style="background-color: gold;"> < ol >  </span> Orden list: Lista Ordenada<br>  
+                    <ol>
+                        <li>Etiquetas de Estructuras</li>
+                        <li>Etiquetas de Encabezado</li>
+                        <li>Etiquetas de parrafo y Texto</li>
+                        <li>Etiquetas de Lista</li>
+                        <li>Etiquetas de Imagen y Multimedia</li>
+                        <li>Etiquetas de Formulario</li>
+                        <li>Etiquetas Semanticas</li>
+                    </ol>
+                <img src="img/ol.png" /><br>
                 
-                <span style="color:blue">type=<span style="color: brown;">"submit,"</span></span>
-                La casilla es de tipo "bottom"<br><br>
-                <form>
-                    <label For="Nombre"> Nombre</label>
-                    <input type="submit" />
-                </form> <br><br>
+                Si deseo editar la lista ordenada incremental que empieze en otro numero o letras u otro estylo 
+                podemos hacerlo<br>
 
-                <span style="color: blue;"> Type= <span style="color: brown;"> "email" </span></span>
-                La casilla es de tipo contexto email (@correo.com)
-                <form>
-                    <label for="email"> </label>
-                </form>
+                    <ol>
+                        <li value="50">Etiquetas de Estructuras</li>
+                        <li>Etiquetas de Encabezado</li>
+                        <li>Etiquetas de parrafo y Texto</li>
+                        <li>Etiquetas de Lista</li>
+                        <li>Etiquetas de Imagen y Multimedia</li>
+                        <li>Etiquetas de Formulario</li>
+                        <li>Etiquetas Semanticas</li>
+                    </ol>
 
-                 masego cambio  
+                <img src="img/ol_50.png" /><br>
+                puedo tambien cambiar el <span style="color: blue;"> style </span> del indice de la lista, ya se numero romanos, letras, incluso agregar una sublista de la lista<br>
+                    
+                    <ol>
+                        <li value="50">Etiquetas de Estructuras</li>
+                        <li>Etiquetas de Encabezado</li>
+                            <ol>
+                                <li style="list-style: lower-alpha;">h1</li>
+                                <li style="list-style: lower-alpha;">h2</li>
+                                <li style="list-style: lower-alpha;">h3</li>
+                                <li style="list-style: lower-alpha;">h4</li>
+                                <li style="list-style: lower-alpha;">h5</li>
+                                <li style="list-style: lower-alpha;">h6</li>
+                            </ol>
+                        <li>Etiquetas de parrafo y Texto</li>
+                        <li>Etiquetas de Lista</li>
+                        <li>Etiquetas de Imagen y Multimedia</li>
+                        <li>Etiquetas de Formulario</li>
+                        <li>Etiquetas Semanticas</li>
+                    </ol> 
+                <img src="img/olsub.png" />
+                <br><br>
+            
+            <span style="font-size: 24px; margin-bottom:10px; "> Tablas</span><br><br>
+            
+                <span style="background-color: gold;"> < table > </span><br>
+                Vamos a crear filas y columnas con varios elemtnos y style dentro de esta etiqueta de tabla:<br><br>
 
-            </p>
+                <span style="color:blue;"> < tr > </span>: fila dentro de la table<br>
+                <span style="color:blue;"> < th > </span>: Es la cabecera de la fila<br>
+                <span style="color:blue;"> < td > </span>: Es el texto que va debajo de la cabeza de la fila
+                <br><br><br>
+                   
+                    <table style="border: 1px solid black;">
+                        <tr>
+                            <th>Producto</th>
+                            <th>precio</th>
+                            <th>fecha</th>
+                        </tr>
+                        <tr>
+                            <td>Teclado</td>
+                            <td>Gratis</td>
+                            <td>02-09-23</td>
+                        </tr>
+                    </table><br>
+                <img src="img/table.png" />
+                <br><br>
+        </p>
     </body>
-    </html> 
+</html> 
