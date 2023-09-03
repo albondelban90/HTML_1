@@ -11,8 +11,8 @@
         </h1>
             <p>
                 Hyper Text Markup Language:<br>
-                Lenguaje de programación de etiquetas, que sirve como una estructura de arbol
-                para el contenido y desing de una pagina o aplicacion web.
+                Lenguaje de programación de etiquetas, que sirve como una estructura de arbol anidado
+                para darle estructura a el contenido de una pagina o aplicacion web.
             </p>
         <h2>
             Estructura HTML
@@ -20,7 +20,9 @@
             <p>
                 Sistemas de Etiquetas dentado, que se compone por bloques. <br> 
                 <!--aca debo colocar la imagen de ejemplo de la estructura-->
-                <img src="img/Estructura.png" />  <img src="img/Estructura visual.png" />
+                <img src="img/Estructura.png" />  
+                <img src="img/Estructura visual.png" />
+                <img src="img/estructure_code.png" />
                 <hr>
             </p>
         <h3>
@@ -58,9 +60,13 @@
                 funcionalidades, estructura, diseno a las paginas web. <br><br>
 
                 <span style="background-color: gold;""> < DOCTYPE html> </span><br>
-                Esta etiqueta es la primera de todo codigo html y significa el modo html-5
+                Esta etiqueta (aunque no es una como tal, sino un) elemento que le indica al browser el Tipos
+                de version de html, y es el primer texto de todo codigo html que significa el modo html-5
                 sin no esta mencionada en el código, el buscador entraría en modo Quirks mode,
                 que es el modo de los 90`s (antiguo) de las paginas web.<br><br>
+
+                <span style="background-color: gold ;"> < HTML > </ HTML > </span><br>
+                Este representa el elemento raiz, <br><br>
 
                 <span style="background-color: gold;"> < head > </span><br>
                 Representa la colección del metada que no necesariamente está visible al usuario<br><br>
@@ -70,7 +76,23 @@
                 que los motores de busqueda utilizan el titulo para posicionar paginas web.<br><br>
             
                 <span style="background-color: gold;"> < body > </span><br>
-                "Representa todo el contenido de la web"<br><br>
+                Representa todo el contenido de la web" aqui es donde se desarollo todo el contenido.<br><br>
+
+                <span style="background-color: gold;"> < header > </ header> </span><br>
+                Se utiliza para agrupar link, tambien alguna imagen o logos y podemos crear tantas queramos siempre y cuando
+                se cumplan 2 reglas
+
+                    <ol>
+                        <li> NO se puede colocar una etiqueta de header dentro de otra etiqueta de header</li>
+                        <li> No podemos colocar una de header dentro de una etiqueta de < footer /> </li>
+                    </ol><br>
+            
+                <span style="background-color: gold;"> < section ></ section> </span><br>
+                Como lo indica su nombre, nos permite definir secciones dentro de nuestro </ body ><br><br>
+
+                <span style="background-color: gold;"> < footer ></ footer> </span><br>
+                Se ultiliza para colocar el pie de pagina de la web, alli por lo general va el copyright,
+                informacion de contacto, del sitios, o del autor, link de returno al inicio etc.<br><br>
                 
                 <span style="background-color: gold;"> < h1-h6 > </span><br>
                 Heading o cabezeras y se utiliza para indicar cabeceras, subcabeceras o sub-sub-cabeceras.. 
